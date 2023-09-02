@@ -1,0 +1,268 @@
+body {
+  background-color: #AB6E50;
+  font-family: 'Montserrat', sans-serif;
+  color: #596E79;
+  font-size: px;
+  justify-content: center;
+  line-height: normal;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+header {
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 1%;
+}
+
+nav a:hover {
+  background-color: rgba(146, 142, 142, 0.575);
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+
+p {
+  display: block;
+  margin-bottom: 40px;
+  color: #796c59;
+}
+
+footer{
+  color: #796c59;
+}
+
+hr {
+  height: 2px;
+  background-color: #C7B198;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #C7B198;
+  font-family: 'Spartan', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #a5927d;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+h3 {
+  color: #A86648;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h4 {
+  color: #796c59;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+form{
+  color: #796c59;
+}
+
+.form-button{
+  background-color: #A86648;
+  color: #fff;
+  font-weight: bolder;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-item{
+  text-align: left;
+}
+
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #F0ECE2;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+ul li {
+  color: #796c59;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #C7B198;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/* ESTILO DA PAGINA DE CONTATO*/
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+.botao-jogo {
+  background-color: #378d21;
+  color: #fff;
+  font-weight: bolder;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+
+a .link-jogo{
+  align-items: start;
+}
+
+button:hover {
+  background-color: #a09f9e;
+}
+
+
+.resume-item {
+  margin: 20px;
+  text-align: left;
+  color: #796c59;
+}
+
+.year {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.description {
+  margin-left: 20px;
+}
+
+
+.banner-trex {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  background-image: url("images/trexPB.png");
+}
+
+.banner-trexresp {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  background-image: url("images/trexcolor.png");
+}
+
+.banner-pirata {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  background-image: url("images/pirata.png");
+}
+
+.banner h1 {
+  color: #A15E42;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 20px;
+  font-weight: bold;
+  text-align:justify;
+}
